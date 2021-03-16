@@ -1,0 +1,11 @@
+[25-Mar-2019 11:14:26 UTC] PHP Warning:  Uncaught ErrorException: require(/home/iphstech/public_html/iphtechnologies.com.au/Rendezvous/app/Http/Controllers/vendor/autoload.php): failed to open stream: No such file or directory in /home/iphstech/public_html/iphtechnologies.com.au/Rendezvous/app/Http/Controllers/apiController.php:12
+Stack trace:
+#0 /home/iphstech/public_html/iphtechnologies.com.au/Rendezvous/app/Http/Controllers/apiController.php(12): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/i...', '/home/iphstech/...', 12, Array)
+#1 /home/iphstech/public_html/iphtechnologies.com.au/Rendezvous/app/Http/Controllers/apiController.php(12): require()
+#2 /home/iphstech/public_html/iphtechnologies.com.au/Rendezvous/vendor/composer/ClassLoader.php(444): include('/home/iphstech/...')
+#3 /home/iphstech/public_html/iphtechnologies.com.au/Rendezvous/vendor/composer/ClassLoader.php(322): Composer\Autoload\includeFile('/home/iphstech/...')
+#4 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Http\\Contro...' in /home/iphstech/public_html/iphtechnologies.com.au/Rendezvous/app/Http/Controllers/apiController.php on line 12
+[25-Mar-2019 11:14:26 UTC] PHP Fatal error:  main(): Failed opening required '/home/iphstech/public_html/iphtechnologies.com.au/Rendezvous/app/Http/Controllers/vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/iphstech/public_html/iphtechnologies.com.au/Rendezvous/app/Http/Controllers/apiController.php on line 12
+[26-Mar-2019 10:16:23 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 83185664 bytes) in /home/iphstech/public_html/iphtechnologies.com.au/Rendezvous/app/Http/Controllers/apiController.php on line 50
+[10-Jun-2019 14:20:48 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 105267200 bytes) in /home/iphstech/public_html/iphtechnologies.com.au/Rendezvous/app/Http/Controllers/apiController.php on line 360
+[08-Nov-2019 05:26:59 UTC] PHP Fatal error:  Cannot use [] for reading in /home/iphstech/public_html/iphtechnologies.com.au/give_joy/app/Http/Controllers/apiController.php on line 495
